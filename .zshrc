@@ -20,3 +20,5 @@ autoload -Uz compinit && compinit
 export PATH=$PATH:$HOME/.npm/bin
 
 alias config='/usr/bin/git --git-dir=/home/rezwanarefin01/.dotfiles/ --work-tree=/home/rezwanarefin01'
+
+export XMONAD_CONFIG_DIR="$HOME/.config/xmonad"

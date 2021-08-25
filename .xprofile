@@ -1,0 +1,5 @@
+if [ $DESKTOP_SESSION = 'xmonad' ]
+then
+    xrandr -s 1360x768 &
+    nitrogen --restore &
+fi
