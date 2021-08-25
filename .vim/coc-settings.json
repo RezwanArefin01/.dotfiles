@@ -1,0 +1,10 @@
+{
+  "suggest.snippetIndicator": "►",
+  "coc.preferences.jumpCommand": ":tabf",
+
+  "java.home": "/usr/lib64/jvm/default/",
+  "java.import.gradle.enabled": true,
+	"java.import.gradle.wrapper.enabled": true
+}
+
+
