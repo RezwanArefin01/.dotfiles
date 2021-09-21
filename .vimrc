@@ -31,13 +31,10 @@ augroup END
 " end CP vimrc
 """""""""""""""""""""""""""""""""""""""
 
-set wrap
-set textwidth=80
 noremap <silent> k gk
 noremap <silent> j gj
 noremap <silent> 0 g0
 noremap <silent> $ g$
-
 
 let mapleader = "\<space>"
 let maplocalleader = "\<space>"
@@ -77,7 +74,6 @@ Plug 'google/vim-maktaba'
 Plug 'google/vim-codefmt'
 Plug 'google/vim-glaive'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'jremmen/vim-ripgrep'
 Plug 'mbbill/undotree'
 Plug 'searleser97/cpbooster.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -157,4 +153,5 @@ if exists("g:loaded_fix_indentkeys")
 endif
 let g:loaded_fix_indentkeys = 1
 autocmd FileType tex,plaintex execute "setlocal indentkeys=" . &indentkeys
+autocmd FileType tex,plaintex set wrap
 
