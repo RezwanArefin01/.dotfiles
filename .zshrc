@@ -5,7 +5,7 @@ fi
 export ZSH="/usr/share/oh-my-zsh"
 ZLE_RPROMPT_INDENT=0
 
-plugins=(git git-extras gitignore python node npm pip django archlinux sudo jsontools autopep8)
+plugins=(git git-extras gitignore python node npm pip archlinux sudo jsontools autopep8)
 
 source $ZSH/oh-my-zsh.sh
 
